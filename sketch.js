@@ -70,7 +70,7 @@ function readStock(data)
 }
 function feedDog()
 {
-    dog.addImage(happyDogImg);
+    dog.addImage(happydogImg);
     foodS--;
     database.ref('/').update({
       Food : foodS
